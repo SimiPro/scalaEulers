@@ -14,7 +14,7 @@ object Problem3 extends App {
 		markNotPrimeNumbers(2, net, 0)
 		net.foreach(V =>  {
 		  if (V.prime) {
-			while(prime % V.pNumber == 0 ) {
+			while(prime % V.pNumber == 0) {
 			  prime /= V.pNumber
 			  latestPrime = V.pNumber
 			}
