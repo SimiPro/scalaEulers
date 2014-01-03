@@ -1,7 +1,6 @@
 package euler10
 
 import scala.collection.immutable.Stream
-import scala.math.BigInt
 import scala.math._
 import stopwatch.Stopwatch._
 

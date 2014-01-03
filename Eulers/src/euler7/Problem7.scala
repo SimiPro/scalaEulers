@@ -1,6 +1,5 @@
 package euler7
 
-import scala.math.BigInt
 
 object Problem7 extends App {
 	lazy val prims : Stream[Int] =   2 #:: Stream.from(3).
